@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarvelMart</title>
+
+  <!-- adding favicon -->
+  <link rel="shortcut icon" href="/img/4.png" type="image/x-icon">
+
+  <!-- adding boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- adding custom css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- adding all the media queries to a seperate CSS style file  -->
+  <link rel="stylesheet" href="css/mquery.css">
+
+</head>
+
+<body>
+
+  <!-- header section markup 
+  ----------++----------++---------- -->
+  <header>
+    <div class="container">
+      <div class="left">
+        <a href="#" class="logo"><img src="img/logo-green.png" alt="page logo"></a>
+        <nav class="nav-desktop">
+          <a href="#home">Home</a>
+          <a href="#shop">Shop</a>
+          <a href="#pages">Pages</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="action">
+        <a href="#" class="profile"><i class='bx bx-user'></i></a>
+        <div class="on-cart">
+          <a href="#" class="cart"><i class='bx bx-cart'></i></a>
+          <span class="price">₹ 0.00</span>
+        </div>
+        <div class="hamb">
+          <span class="top"></span>
+          <span class="mid"></span>
+          <span class="bottom"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- mobile navigation 
+  ----------++----------++---------- -->
+  <nav class="mobile-nav">
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#pages">Pages</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <!-- hero section markup 
+  ----------++----------++---------- -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="desc">
+        <h2 class="title">Feel awesome by wearing our shoes</h2>
+        <p class="text">Elavate your style with our latest collection of footwear, designed for comfort and
+          fashion-forward looks.</p>
+        <a href="#" class="btn btn-fill">Shop Now</a>
+      </div>
+      <div class="connect">
+        <p>Let's connect with us</p>
+        <div class="social">
+          <a href="#" class="twitter"><i class='bx bxl-twitter'></i></a>
+          <a href="#" class="instagram"><i class='bx bxl-instagram-alt'></i></a>
+          <a href="#" class="facebook"><i class='bx bxl-facebook'></i></a>
+        </div>
+      </div>
+      <div class="design-credit">
+        <a href="https://www.freepik.com/">Designed by Freepik</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- featured product section 
+  ----------++----------++---------- -->
+  <section class="featured">
+    <div class="content">
+      <div class="product">
+        <div class="desc">
+          <h3>Formal boots</h3>
+          <p>Collection</p>
+          <a href="" class="btn btn-line">Shop Now</a>
+        </div>
+        <a href="" class="placeholder"><img src="./img/info-img.png" alt=""></a>
+      </div>
+
+      <div class="product">
+        <div class="desc">
+          <h3>Women's shoes</h3>
+          <p>Collection</p>
+          <a href="" class="btn btn-line">Shop Now</a>
+        </div>
+        <a href="" class="placeholder"><img src="./img/info-img2.png" alt=""></a>
+      </div>
+
+      <div class="product">
+        <div class="desc">
+          <h3>Casual shoes</h3>
+          <p>Collection</p>
+          <a href="" class="btn btn-line">Shop Now</a>
+        </div>
+        <a href="" class="placeholder"><img src="./img/info-img3.png" alt=""></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- new arrivals section 
+  ----------++----------++---------- -->
+  <section class="new" id="shop">
+    <div class="container">
+      <div class="heading">
+        <h3 class="title">Our New Products</h3>
+        <p class="text">Browse our latest Collections</p>
+      </div>
+      <div class="products">
+        <div class="card">
+          <div class="image"></div>
+          <div class="overlay">
+            <div class="details">
+              <a href="#" class="tag">Classic leather shoe</a>
+              <p class="price">₹500.00 - ₹1000.00</p>
+            </div>
+            <div class="action">
+              <a href="#" class="heart"><i class='bx bx-heart'></i></a>
+              <a href="#" class="select">Select option</a>
+              <a href="#" class="view"><i class='bx bx-search'></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image"></div>
+          <div class="overlay">
+            <div class="details">
+              <a href="#" class="tag">Ladies shoe tenis</a>
+              <p class="price">₹750.00 - ₹1250.00</p>
+            </div>
+            <div class="action">
+              <a href="#" class="heart"><i class='bx bx-heart'></i></a>
+              <a href="#" class="select">Select option</a>
+              <a href="#" class="view"><i class='bx bx-search'></i></a>
+            </div>
+          </div>
+          <span class="offer">-25%</span>
+        </div>
+
+        <div class="card">
+          <div class="image"></div>
+          <div class="overlay">
+            <div class="details">
+              <a href="#" class="tag">men's formal shoe</a>
+              <p class="price">₹600.00 - ₹1100.00</p>
+            </div>
+            <div class="action">
+              <a href="#" class="heart"><i class='bx bx-heart'></i></a>
+              <a href="#" class="select">Select option</a>
+              <a href="#" class="view"><i class='bx bx-search'></i></a>
+            </div>
+          </div>
+          <span class="offer">-12%</span>
+        </div>
+
+        <div class="card">
+          <div class="image"></div>
+          <div class="overlay">
+            <div class="details">
+              <a href="#" class="tag">Men's summer shoe</a>
+              <p class="price">₹650.00 - ₹1150.00</p>
+            </div>
+            <div class="action">
+              <a href="#" class="heart"><i class='bx bx-heart'></i></a>
+              <a href="#" class="select">Select option</a>
+              <a href="#" class="view"><i class='bx bx-search'></i></a>
+            </div>
+          </div>
+          <span class="offer">-05%</span>
+        </div>
+
+        <div class="card toggle-view">
+          <div class="image"></div>
+          <div class="overlay">
+            <div class="details">
+              <a href="#" class="tag">Canvas loafers</a>
+              <p class="price">₹700.00 - ₹1200.00</p>
+            </div>
+            <div class="action">
+              <a href="#" class="heart"><i class='bx bx-heart'></i></a>
+              <a href="#" class="select">Select option</a>
+              <a href="#" class="view"><i class='bx bx-search'></i></a>
+            </div>
+          </div>
+          <span class="offer">-08%</span>
+        </div>
+
+        <div class="card toggle-view">
+          <div class="image"></div>
+          <div class="overlay">
+            <div class="details">
+              <a href="#" class="tag">Canvas loafers</a>
+              <p class="price">₹550.00 - ₹1050.00</p>
+            </div>
+            <div class="action">
+              <a href="#" class="heart"><i class='bx bx-heart'></i></a>
+              <a href="#" class="select">Select option</a>
+              <a href="#" class="view"><i class='bx bx-search'></i></a>
+            </div>
+          </div>
+          <span class="offer">-12%</span>
+        </div>
+
+        <div class="card toggle-view">
+          <div class="image"></div>
+          <div class="overlay">
+            <div class="details">
+              <a href="#" class="tag">Canvas loafers</a>
+              <p class="price">₹800.00 - ₹1300.00</p>
+            </div>
+            <div class="action">
+              <a href="#" class="heart"><i class='bx bx-heart'></i></a>
+              <a href="#" class="select">Select option</a>
+              <a href="#" class="view"><i class='bx bx-search'></i></a>
+            </div>
+          </div>
+          <span class="offer">-17%</span>
+        </div>
+
+        <div class="card toggle-view">
+          <div class="image"></div>
+          <div class="overlay">
+            <div class="details">
+              <a href="#" class="tag">Canvas loafers</a>
+              <p class="price">₹450.00 - ₹950.00</p>
+            </div>
+            <div class="action">
+              <a href="#" class="heart"><i class='bx bx-heart'></i></a>
+              <a href="#" class="select">Select option</a>
+              <a href="#" class="view"><i class='bx bx-search'></i></a>
+            </div>
+          </div>
+          <span class="offer">-4%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- markup for trending items section 
+  ----------++----------++---------- -->
+  <section class="trending" id="pages">
+    <div class="container">
+      <div class="items">
+
+        <a href="#" class="card right">
+          <div class="desc">
+            <h4>Trending now</h4>
+            <h3>Casual shoes</h3>
+          </div>
+        </a>
+
+        <a href="#" class="card right">
+          <div class="desc">
+            <h4>Trending now</h4>
+            <h3>Women's sandal</h3>
+          </div>
+        </a>
+
+        <a href="#" class="card left">
+          <div class="desc">
+            <h4>Trending now</h4>
+            <h3>Sport shoes</h3>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- services section markup 
+  ----------++----------++---------- -->
+  <section class="services">
+    <div class="container">
+
+      <div class="box">
+        <span class="icon"><i class='bx bx-package'></i></span>
+        <div class="content">
+          <h4>Free shipping</h4>
+          <span>On all orders</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="icon"><i class='bx bx-like'></i></span>
+        <div class="content">
+          <h4>Money back guarantee</h4>
+          <span>Within 7 days</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="icon"><i class='bx bx-credit-card'></i></span>
+        <div class="content">
+          <h4>Secure payment</h4>
+          <span>100% security on payment</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <span class="icon"><i class='bx bx-support'></i></span>
+        <div class="content">
+          <h4>24/7 live support</h4>
+          <span>get help when you need</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- newsletter section 
+  ----------++----------++---------- -->
+  <section class="newsletter" id="contact">
+    <div class="container">
+      <div class="content">
+        <div class="desc">
+          <h4>Sign up for our newsletter</h4>
+          <p>Watch the full video for learning how to code a website properly!</p>
+        </div>
+        <form action="#" method="post">
+          <input type="email" name="email" id="mail" placeholder="Your E-mail">
+          <label for="submit">
+            <input type="submit" value="Subscribe"><i class='bx bxs-envelope'></i>
+          </label>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section markup 
+  ----------++----------++---------- -->
+  <footer>
+    <div class="container">
+      <div class="top">
+
+        <div class="box about">
+          <a href="#" class="logo">
+            <img src="./img/logo-black.png" alt="">
+          </a>
+          <div class="details">
+            <address>123 Elm Street, Gotham City, Wayne Manor 05, Batcave</address>
+            <p>+1 (123) 456-7890</p>
+            <p>batman@wayneenterprises.com</p>
+          </div>
+
+        </div>
+
+        <div class="box">
+          <h4 class="headline">Information</h4>
+          <div class="links">
+            <a href="#">About us</a>
+            <a href="#">Latest post</a>
+            <a href="#">Selling tips</a>
+            <a href="#">Advertising</a>
+            <a href="#">Contact us</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h4 class="headline">My account</h4>
+          <div class="links">
+            <a href="#">Account</a>
+            <a href="#">Login/ register</a>
+            <a href="#">Cart</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Order history</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h4 class="headline">Help & support</h4>
+          <div class="links">
+            <a href="#">How to shop</a>
+            <a href="#">Payment</a>
+            <a href="#">Returns</a>
+            <a href="#">Delivery</a>
+            <a href="#">Privacy & Cookie Policy</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="bottom">
+        <p>&copy; Copyright MarvelMart 2024 | All rights reserved</p>
+        <div class="social">
+          <a href="#" class="facebook"><i class='bx bxl-facebook'></i></a>
+          <a href="#" class="twitter"><i class='bx bxl-twitter'></i></a>
+          <a href="#" class="linkedin"><i class='bx bxl-linkedin'></i></a>
+          <a href="#" class="youtube"><i class='bx bxl-youtube'></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- adding ScrollReveal cdn file -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- adding custom script file  -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
