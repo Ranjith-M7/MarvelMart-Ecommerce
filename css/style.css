@@ -159,7 +159,7 @@ header .container .action a i {
   height: auto;
   background-color: #f0f2f4;
   margin-top: 105px;
-  background-image: url(../img/banner.jpg);
+  background-image: url(../img/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 35% center;
@@ -238,16 +238,16 @@ header .container .action a i {
 .hero .connect .social a.twitter:hover {
   color: #089cea;
 }
-.hero .connect .social .instagram:hover{
+.hero .connect .social .instagram:hover {
   color: #c13584;
 }
 /* Banner design credit */
-.design-credit{
+.design-credit {
   position: absolute;
   bottom: 10px;
   right: 0;
 }
-.design-credit a{
+.design-credit a {
   color: inherit;
 }
 /* featured product style 
