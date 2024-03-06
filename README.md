@@ -2,12 +2,12 @@
 
 A brief description of what this project does and who it's for
 
-##Tech Stack
+## Tech Stack
   HTML, CSS, JavaScript
 
 Screenshots
 
-##Run Locally
+## Run Locally
 Clone the project
 
   git clone https://link-to-project
