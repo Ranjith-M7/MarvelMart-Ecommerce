@@ -10,7 +10,7 @@ Screenshots
 ## Run Locally
 Clone the project
 
-  git clone https://link-to-project
+  git clone https://link-to-project](https://ranjith-m7.github.io/MarvelMart-Ecommerce/
   
 Go to the project directory
 
