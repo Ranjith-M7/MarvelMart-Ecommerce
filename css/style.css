@@ -73,12 +73,12 @@ header .container .left {
   justify-content: flex-start;
 }
 header .container .left .logo img {
-  height: 40px;
+  height: 34px;
   vertical-align: middle;
 }
 header .container .left .nav-desktop {
   display: flex;
-  gap: 32px;
+  gap:32px;
 
   display: none;
 }
@@ -165,7 +165,7 @@ header .container .action a i {
   background-position: 35% center;
 }
 .hero .container {
-  padding: 150px 0 200px;
+  padding: 100px 0 130px;
   position: relative;
 }
 .hero .desc {
@@ -208,7 +208,7 @@ header .container .action a i {
 }
 .hero .connect .social {
   display: flex;
-  gap: 12px;
+  gap: 11.5px;
   position: relative;
 }
 .hero .connect .social::before {
@@ -240,15 +240,6 @@ header .container .action a i {
 }
 .hero .connect .social .instagram:hover {
   color: #c13584;
-}
-/* Banner design credit */
-.design-credit {
-  position: absolute;
-  bottom: 10px;
-  right: 0;
-}
-.design-credit a {
-  color: inherit;
 }
 /* featured product style 
   ----------++----------++---------- */
@@ -528,7 +519,7 @@ header .container .action a i {
   padding: 90px 0 0;
 }
 .newsletter .container {
-  padding: 110px 0 110px 8%;
+  padding: 110px 1% 110px 7%;
   border: 1px solid #e1e1e1;
   background-image: url(../img/newsletter-banner.jpg);
   background-repeat: no-repeat;
@@ -585,13 +576,13 @@ footer {
   padding: 50px 0;
   background-color: var(--clr-black);
   color: var(--clr-white);
+  text-align: center;
 }
-
 footer .top {
   padding-bottom: 35px;
   display: grid;
   gap: 32px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   border-bottom: 1px solid #e1e1e1;
 }
 footer .top .about .logo {
@@ -602,6 +593,9 @@ footer .top .about .details,
 footer .top .box .links {
   display: grid;
   gap: 12px;
+}
+footer .top .about .details a {
+  color: rgb(144, 141, 141);
 }
 footer .top .box .headline {
   font-size: 20px;
@@ -622,7 +616,7 @@ footer .bottom {
   padding-top: 35px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   gap: 32px;
 }
