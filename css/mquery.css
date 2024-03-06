@@ -1,3 +1,20 @@
+@media screen and (min-width: 375px) {
+  /* header section */
+  header .container .left .logo img {
+    height: 40px;
+  }
+}
+@media screen and (min-width: 425px) {
+  /* footer section */
+
+  footer {
+    text-align: left;
+  }
+  footer .top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media screen and (min-width: 600px) {
   /* newsletter section */
 
@@ -44,6 +61,13 @@
     left: 60px;
   }
 }
+@media screen and (min-width: 768px) {
+  /* header section */
+  .hero .container {
+    padding: 110px 0 150px;
+  }
+}
+
 @media screen and (min-width: 780px) {
   /* desktop navigation */
 
@@ -84,5 +108,12 @@
   }
   .services .container {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* header section */
+  .hero .container {
+    padding: 160px 0 200px;
   }
 }
