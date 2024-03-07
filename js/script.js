@@ -42,3 +42,22 @@ cardContainer.addEventListener("click", (event) => {
     image.setPointerCapture(event.pointerId);
   }
 });
+
+// Email validation
+const validateEmail = (mail) => {
+  // define a basic regular expression
+  const emailRegEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegEx.test(mail);
+};
+
+const mail = document.querySelector("#mail");
+const subscribeBtn = document.querySelector("#subscribe-btn");
+
+mail.addEventListener("keyup",(event)=>{
+  if(validateEmail(event.target.value)){
+    mail.style.border = "1px solid green";
+  }else{
+    mail.style.border = "1px solid red";
+  }
+})
+
