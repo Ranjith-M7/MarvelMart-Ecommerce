@@ -51,7 +51,6 @@ const validateEmail = (mail) => {
 };
 
 const mail = document.querySelector("#mail");
-const subscribeBtn = document.querySelector("#subscribe-btn");
 
 mail.addEventListener("keyup",(event)=>{
   if(validateEmail(event.target.value)){
