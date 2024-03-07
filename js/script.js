@@ -29,3 +29,16 @@ const sr = ScrollReveal({
 });
 sr.reveal(".hero .desc", { delay: 250, origin: "bottom" });
 sr.reveal(".newsletter .content", { delay: 250, origin: "bottom" });
+
+// Select the parent element that contains all the cards
+const cardContainer = document.querySelector(".products");
+
+cardContainer.addEventListener("click", (event) => {
+  if (event.target.classList.contains("card")) {
+    const card = event.target;
+    const image = card.querySelector(".image");
+    image.style.height = "250px";
+    // Set pointer capture to track the pointer events even if the pointer moves outside the element
+    image.setPointerCapture(event.pointerId);
+  }
+});
