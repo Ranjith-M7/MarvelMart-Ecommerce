@@ -78,7 +78,7 @@ header .container .left .logo img {
 }
 header .container .left .nav-desktop {
   display: flex;
-  gap:32px;
+  gap: 32px;
 
   display: none;
 }
